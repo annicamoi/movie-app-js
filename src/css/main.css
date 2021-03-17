@@ -1,26 +1,26 @@
 /* base style */
-@import './base/base.css';
-@import './base/typography.css';
-@import './base/animations.css';
+@import "./base/base.css";
+@import "./base/typography.css";
+@import "./base/animations.css";
 
 /* Variables */
-@import './abstracts/variables.css';
+@import "./abstracts/variables.css";
 
 /* layout */
-@import './layout/header.css';
-@import './layout/content.css';
-@import './layout/movies.css';
-@import './layout/footer.css';
+@import "./layout/header.css";
+@import "./layout/content.css";
+@import "./layout/movies.css";
+@import "./layout/footer.css";
 
 /* Component */
-@import './components/movie.css';
-@import './components/loader';
-@import './components/content-navbar.css';
-@import './components/button.css';
-@import './components/genres.css';
+@import "./components/movie.css";
+@import "./components/loader";
+@import "./components/content-navbar.css";
+@import "./components/button.css";
+@import "./components/genres.css";
 
 /* Pages */
-@import './pages/homepage.css';
+@import "./pages/homepage.css";
 
 /* external styles */
-@import './vendors/vendor.css';
+@import "./vendors/vendor.css";

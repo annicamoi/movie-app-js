@@ -1,5 +1,5 @@
 export const footer = () => {
-  const footerHtmlString = `
+    const footerHtmlString = `
   <!-- FOOTER START -->
        <footer class="footer">       
         <div class="col">
@@ -50,11 +50,11 @@ export const footer = () => {
              </li>
           <li>
           <div class="facebook">
-          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
           </li>
           <li>
           <div class="instagram">
-          <a href="https://www.instagram.com/accounts/login" target="_blank"><i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/accounts/login" target="_blank"><i class="fab fa-instagram"></i></a>
           </li>
           </ul>
         </div>
@@ -71,5 +71,5 @@ export const footer = () => {
        </footer>
     `;
 
-  return footerHtmlString;
+    return footerHtmlString;
 };
