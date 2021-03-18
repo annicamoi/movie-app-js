@@ -7,13 +7,13 @@ export const footer = () => {
         <ul>
           <div class="footer-icons">
             <li><div class="home">
-            <i class="fas fa-home"></i></li>
+            <a href="#"><i class="fas fa-home"></i></li></a>
             <li><div class="wishlist">
-            <i class="fas fa-heart"></i></li>
+            <a href="#"><i class="fas fa-heart"></i></li></a>
             <li><div class="search">
-            <i class="fas fa-search"></i></li>
+            <a href="#"><i class="fas fa-search"></i></li></a>
             <li><div class="signin">
-            <i class="fas fa-sign-in-alt"></i></li>
+            <a href="#"><i class="fas fa-sign-in-alt"></i></li></a>
         </ul>
         </div>
         <div class="col">
@@ -46,22 +46,24 @@ export const footer = () => {
         <li>
           <div class="socialmedia-icons">
           <div class="twitter">
-             <i class="fab fa-twitter"></i>
+             <a href="https://twitter.com/frontpage_live?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
              </li>
           <li>
           <div class="facebook">
-          <i class="fab fa-facebook-f"></i>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i>
           </li>
           <li>
           <div class="instagram">
-          <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/accounts/login" target="_blank"><i class="fab fa-instagram"></i>
           </li>
           </ul>
         </div>
+        <br>
         <div class="col">
           <p>COPYRIGHT</p>         
-            <div class="copyright">&copy; Vanilla Movie 2021</div>          
-        </div>      
+            <div class="copyright">&copy; BCH Vanilla Movie 2021</div>          
+        </div>    
+        </br>  
       </div>
       </div>
   <br>
