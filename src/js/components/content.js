@@ -12,7 +12,9 @@ export const content = (movies, genres) => {
               <div class="content__navbar__item active">Trending</div>
               <div class="content__navbar__item">Top Rated</div>
               <div class="content__navbar__item">New Arrivals</div>
-             
+              <div class="content__navbar__item select--dropdown">${genresDropdownList(
+                genres
+              )}</div>
             </nav>
             
             <section class="section--movies active section--trending-movies">              

@@ -1,10 +1,22 @@
 export const genresDropdownList = (genres) => {
-  console.log(genres);
-  const htmlString = `
-        <label for="movie-genres">Genres <i class="fas fa-chevron-down"></i></label>
+  const genresArray = genres.map((genreObj) => genreObj.name);
+
+  const genresHtmlString = `        
         <select class="genres__list--dropdown" name="movie genres" id="movie-genres">
-            <option value=""></option>
+            ${getGenresName(genresArray)}
         </select>    
     `;
-  return htmlString;
+  return genresHtmlString;
+};
+
+const getGenresName = (genresArray) => {
+  let genreOptions = `
+    <option id="select__label" class="select__item" selected>Genres</option>
+  `;
+  genresArray.forEach((genreName) => {
+    genreOptions += `
+    <option class="select__item" value="${genreName}">${genreName}</option>
+    `;
+  });
+  return genreOptions;
 };
