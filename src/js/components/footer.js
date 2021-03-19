@@ -1,5 +1,5 @@
 export const footer = () => {
-  const footerHtmlString = `
+    const footerHtmlString = `
   <!-- FOOTER START -->
        <footer class="footer">       
         <div class="col">
@@ -70,5 +70,5 @@ export const footer = () => {
        </footer>
     `;
 
-  return footerHtmlString;
+    return footerHtmlString;
 };
