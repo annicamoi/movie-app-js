@@ -3,20 +3,6 @@ export const footer = () => {
   <!-- FOOTER START -->
        <footer class="footer">       
         <div class="col">
-          <p>Lost?</p>
-        <ul>
-          <div class="footer-icons">
-            <li><div class="home">
-            <a href="#"><i class="fas fa-home"></i></li></a>
-            <li><div class="wishlist">
-            <a href="#"><i class="fas fa-heart"></i></li></a>
-            <li><div class="search">
-            <a href="#"><i class="fas fa-search"></i></li></a>
-            <li><div class="signin">
-            <a href="#"><i class="fas fa-sign-in-alt"></i></li></a>
-        </ul>
-        </div>
-        <div class="col">
           <p>Company</p>
           <ul>
             <li>About</li>
@@ -58,16 +44,19 @@ export const footer = () => {
           </li>
           </ul>
         </div>
-        <br>
         <div class="col">
-          <p>COPYRIGHT</p>         
-            <div class="copyright">&copy; BCH Vanilla Movie 2021</div>          
+        <p id="back-top"><a href="#">Going up?</a></p>
+        <br>
+        <div class="col">      
         </div>    
         </br>  
       </div>
       </div>
-  <br>
   </div> 
+  <div class="container">
+          <p>COPYRIGHT</p>         
+            <div class="copyright">&copy; BCH Vanilla Movie 2021</div> 
+            </div>
        </footer>
     `;
 

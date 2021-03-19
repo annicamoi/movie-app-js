@@ -1,6 +1,7 @@
 /* STYLES SPECIFIC TO FOOTER */
 
 .footer {
+    padding: 5rem;
     width: 100%;
     position: relative;
     height: auto;
@@ -40,9 +41,17 @@ a:hover {
     color: var(--color-secondary);
 }
 
+footer .container {
+    position: relative;
+    display: flex;
+    margin-top: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+p,
 .copyright {
     color: #999;
-    padding: 2rem 0rem 0.5rem 0rem;
     font-size: 1.1rem;
 }
 
