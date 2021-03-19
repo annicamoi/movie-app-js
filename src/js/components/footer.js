@@ -65,8 +65,7 @@ export const footer = () => {
         </div>    
         </br>  
       </div>
-      </div>
-  <br>
+      </div>  
   </div> 
        </footer>
     `;

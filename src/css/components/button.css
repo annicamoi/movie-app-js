@@ -1,20 +1,13 @@
-button {
+.button {
   text-transform: uppercase;
-  border-style: none;
-  border-radius: 5px;
+  border: none;
+  border-radius: 0.5rem;
   padding: 1rem 2rem;
   cursor: pointer;
-}
-
-.button--dark {
-  color: var(--color-black);
-  background-color: var(--color-yellow);
-  border-style: none;
-  border-radius: 5px;
-  padding: 1rem 2rem;
-  cursor: pointer;
-}
-
-.button--dark:hover {
-  box-shadow: 0px 0px 10px var(--color-yellow);
+  font-weight: 500;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  transition: all ease-out 0.3s;
 }
